@@ -4,41 +4,94 @@
   <meta charset="UTF-8">
   <title>دانلود اپ آواکادو</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       font-family: sans-serif;
-      background: linear-gradient(135deg,#E8F5E9,#FFFDE7);
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      min-height:100vh;
-      margin:0;
+      background: linear-gradient(135deg, #E8F5E9, #FFFDE7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
     }
-    .box{
-      background:#fff;
-      padding:32px;
-      border-radius:20px;
-      max-width:420px;
-      text-align:center;
-      box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+    .box {
+      background: #ffffff;
+      padding: 32px 28px;
+      border-radius: 22px;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
     }
-    h1{color:#4CAF50}
-    p{color:#555;line-height:1.8}
-    a{
-      display:inline-block;
-      margin-top:20px;
-      padding:14px 30px;
-      background:#FF9800;
-      color:#fff;
-      text-decoration:none;
-      border-radius:14px;
-      font-size:18px;
+
+    h1 {
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.9;
+      margin: 12px 0;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 16px 34px;
+      background: #FF9800;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 16px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+
+    .download-btn:hover {
+      background: #FB8C00;
+    }
+
+    .note {
+      font-size: 13px;
+      color: #777;
+      margin-top: 18px;
+    }
+
+    .warning {
+      font-size: 13px;
+      color: #999;
+      margin-top: 8px;
     }
   </style>
 </head>
+
 <body>
   <div class="box">
     <h1>🎧 آواکادو</h1>
 
     <p>
-      پادکست و قصه‌های صوتی ویژه کود
+      پادکست‌ها و قصه‌های صوتی ویژه کودکان  
+      مناسب خواب، بازی و آموزش
+    </p>
+
+    <!-- دانلود مستقیم APK -->
+    <a
+      class="download-btn"
+      href="https://github.com/Rah-heidari/download-app-Avakado/releases/download/Version0.0.1/app-pre-release-v0.0.1.apk"
+    >
+      ⬇️ دانلود مستقیم نسخه اندروید
+    </a>
+
+    <p class="note">
+      مناسب کودکان ۳ تا ۱۰ سال
+    </p>
+
+    <p class="warning">
+      ⚠️ در صورت نمایش هشدار امنیتی اندروید، گزینه «Download anyway» را انتخاب کنید.
+    </p>
+  </div>
+</body>
+</html>
